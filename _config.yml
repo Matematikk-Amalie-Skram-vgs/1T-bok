@@ -1,0 +1,14 @@
+title: boktittel...
+author: Elisabeth Engum, Bjarte Ursin og Torodd Ottestad
+logo: img/asvg-logo.png
+copyright: "2022"
+
+execute:
+  execute_notebooks: force
+
+repository:
+  url: https://github.com/
+  
+html:
+  use_issues_button: false
+  use_repository_button: true
