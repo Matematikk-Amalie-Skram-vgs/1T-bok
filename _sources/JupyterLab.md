@@ -2,7 +2,7 @@
 
 ## Installasjon
 
-Anaconndapakken lastar du ned frå [anaconda.org](https://www.anaconda.com/products/individual). Følg installasjonsretteleiaren der. 
+Anacondapakken lastar du ned frå [anaconda.org](https://www.anaconda.com/products/individual). Følg installasjonsretteleiaren der. 
 
 ## Anaconda navigator og Jupyter Lab
 
@@ -26,7 +26,7 @@ jupyter lab
 
 ## Brukargrensesnitt
 
-
+...
 
 ## Oppdatering
 For å oppdatera heile anaconda-pakken og tilhøyrande bibliotek kan du bruka 
