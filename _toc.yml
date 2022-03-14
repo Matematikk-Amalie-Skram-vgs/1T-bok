@@ -1,2 +1,4 @@
-format: jb-book
+format: jb-article
 root: innhald
+sections:
+- file: JupyterLab
