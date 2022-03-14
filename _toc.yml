@@ -2,3 +2,4 @@ format: jb-article
 root: innhald
 sections:
 - file: JupyterLab
+- file: GrunnleggandeProgrammering

@@ -7,7 +7,7 @@ execute:
   execute_notebooks: force
 
 repository:
-  url: https://github.com/
+  url: https://github.com/Matematikk-Amalie-Skram-vgs/1T-bok
   
 html:
   use_issues_button: false
