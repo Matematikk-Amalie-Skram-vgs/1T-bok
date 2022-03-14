@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; boktittel...</title>
+    <title>Anaconda-pakken og Jupyter Lab &#8212; boktittel...</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -48,8 +48,9 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Innhald" href="innhald.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -93,9 +94,9 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="JupyterLab.html">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Anaconda-pakken og Jupyter Lab
   </a>
  </li>
@@ -132,6 +133,23 @@ const thebe_selector_output = ".output, .cell_output"
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/JupyterLab.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -161,6 +179,39 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#installasjon">
+   Installasjon
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#anaconda-navigator-og-jupyter-lab">
+   Anaconda navigator og Jupyter Lab
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brukargrensesnitt">
+   Brukargrensesnitt
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#oppdatering">
+   Oppdatering
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#laste-inn-filer-fra-nettet">
+   Laste inn filer frå nettet
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -168,30 +219,123 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1></h1>
+                <h1>Anaconda-pakken og Jupyter Lab</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#installasjon">
+   Installasjon
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#anaconda-navigator-og-jupyter-lab">
+   Anaconda navigator og Jupyter Lab
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brukargrensesnitt">
+   Brukargrensesnitt
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#oppdatering">
+   Oppdatering
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#laste-inn-filer-fra-nettet">
+   Laste inn filer frå nettet
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="tex2jax_ignore mathjax_ignore section" id="anaconda-pakken-og-jupyter-lab">
+<h1>Anaconda-pakken og Jupyter Lab<a class="headerlink" href="#anaconda-pakken-og-jupyter-lab" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="installasjon">
+<h2>Installasjon<a class="headerlink" href="#installasjon" title="Permalink to this headline">¶</a></h2>
+<p>Anaconndapakken lastar du ned frå <a class="reference external" href="https://www.anaconda.com/products/individual">anaconda.org</a>. Følg installasjonsretteleiaren der.</p>
+</div>
+<div class="section" id="anaconda-navigator-og-jupyter-lab">
+<h2>Anaconda navigator og Jupyter Lab<a class="headerlink" href="#anaconda-navigator-og-jupyter-lab" title="Permalink to this headline">¶</a></h2>
+<p>Når du har lasta ned Anaconda er du klar til å begynna. For å komma i gang opnar du <strong>Anaconda Navigator</strong> som du kan søka etter med Spotlight (Mac) eller i Start-meny (Windows).</p>
+<p>Når du opnar navigasjonsprogrammet vil det sjå ut som dette:</p>
+<a class="reference internal image-reference" href="img/navigator.png"><img alt="img/navigator.png" class="align-center" src="img/navigator.png" style="width: 500px;" /></a>
+<p>Her er det mange program å velga mellom. Me kjem i hovudsak til å nytta <strong>Jupyter Lab</strong> til programmeringa vår.</p>
+<div class="tip admonition">
+<p class="admonition-title">Tips</p>
+<p>Snarveg for å opna Jupyter Lab</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter lab
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="brukargrensesnitt">
+<h2>Brukargrensesnitt<a class="headerlink" href="#brukargrensesnitt" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="oppdatering">
+<h2>Oppdatering<a class="headerlink" href="#oppdatering" title="Permalink to this headline">¶</a></h2>
+<p>For å oppdatera heile anaconda-pakken og tilhøyrande bibliotek kan du bruka</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda update --all
+</pre></div>
+</div>
+<p>På eit tidspunkt får du spørsmål om du vil halda fram <code class="docutils literal notranslate"><span class="pre">[y/n]</span></code>. Skriv inn <code class="docutils literal notranslate"><span class="pre">y</span></code> (for yes) og trykk enter.</p>
+<p>Det <em>kan</em> henda du må bruka</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge jupyterlab
+</pre></div>
+</div>
+<p>for å installera den aller nyaste versjonen av Jupyter Lab, men du bør først ha oppdatert alt som skildra over.</p>
+</div>
+<div class="section" id="laste-inn-filer-fra-nettet">
+<h2>Laste inn filer frå nettet<a class="headerlink" href="#laste-inn-filer-fra-nettet" title="Permalink to this headline">¶</a></h2>
+</div>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
             
                 <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="innhald.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Innhald</p>
+        </div>
+    </a>
 </div>
             
         </div>
