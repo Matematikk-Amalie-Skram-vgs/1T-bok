@@ -9,7 +9,7 @@ Anaconndapakken lastar du ned frå [anaconda.org](https://www.anaconda.com/produ
 Når du har lasta ned Anaconda er du klar til å begynna. For å komma i gang opnar du **Anaconda Navigator** som du kan søka etter med Spotlight (Mac) eller i Start-meny (Windows).
 
 Når du opnar navigasjonsprogrammet vil det sjå ut som dette:
-```{image} img/navigator.png
+```{image} img/navigator1.png
 :width: 500px
 :align: center
 ```
