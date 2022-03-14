@@ -1,4 +1,4 @@
-# Anaconda-pakken og Jupyter Lab
+# Programvare
 
 ## Installasjon
 
@@ -10,7 +10,7 @@ Når du har lasta ned Anaconda er du klar til å begynna. For å komma i gang op
 
 Når du opnar navigasjonsprogrammet vil det sjå ut som dette:
 ```{image} img/navigator1.png
-:width: 500px
+:width: 650px
 :align: center
 ```
 
@@ -50,3 +50,6 @@ jupyter lab --version
 :::
 
 ## Laste inn filer frå nettet
+
+...
+
