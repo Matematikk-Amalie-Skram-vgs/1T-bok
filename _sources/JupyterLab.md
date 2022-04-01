@@ -16,9 +16,9 @@ Når du opnar navigasjonsprogrammet vil det sjå ut som dette:
 
 Her er det mange program å velga mellom. Me kjem i hovudsak til å nytta **Jupyter Lab** til programmeringa vår. 
 
-:::{admonition} Tips
+:::{admonition} Snarveg for å opna Jupyter Lab
 :class: tip
-Snarveg for å opna Jupyter Lab
+
 ```bash
 jupyter lab
 ```
@@ -41,9 +41,9 @@ conda install -c conda-forge jupyterlab
 ```
 for å installera den aller nyaste versjonen av Jupyter Lab, men du bør først ha oppdatert alt som skildra over. 
 
-:::{admonition}
-:class: tip
-For å sjekka versjonen av Jupyter Lab kan du skriva
+:::{admonition} For å sjekka versjonen av Jupyter Lab kan du skriva
+:class: important
+
 ```bash
 jupyter lab --version
 ``` 

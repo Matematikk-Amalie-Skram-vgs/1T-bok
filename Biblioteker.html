@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Programvare &#8212; boktittel...</title>
+    <title>Biblioteker i Python &#8212; boktittel...</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -50,8 +50,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Grunnleggande Python-programmering" href="GrunnleggandeProgrammering.html" />
-    <link rel="prev" title="Innhald" href="innhald.html" />
+    <link rel="prev" title="Grunnleggande Python-programmering" href="GrunnleggandeProgrammering.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -96,8 +95,8 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="JupyterLab.html">
    Programvare
   </a>
  </li>
@@ -106,8 +105,8 @@ const thebe_selector_output = ".output, .cell_output"
    Grunnleggande Python-programmering
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Biblioteker.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Biblioteker i Python
   </a>
  </li>
@@ -150,9 +149,12 @@ const thebe_selector_output = ".output, .cell_output"
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
+        <a class="dropdown-buttons"
+            href="_sources/Biblioteker.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/JupyterLab.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/Biblioteker.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -185,6 +187,23 @@ const thebe_selector_output = ".output, .cell_output"
 
             <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/Matematikk-Amalie-Skram-vgs/1T-bok/master?urlpath=tree/Biblioteker.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
         </div>
 
         <!-- Table of contents -->
@@ -196,28 +215,13 @@ const thebe_selector_output = ".output, .cell_output"
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#installasjon">
-   Installasjon
+  <a class="reference internal nav-link" href="#forkortelser">
+   Forkortelser
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#anaconda-navigator-og-jupyter-lab">
-   Anaconda navigator og Jupyter Lab
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#brukargrensesnitt">
-   Brukargrensesnitt
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#oppdatering">
-   Oppdatering
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#laste-inn-filer-fra-nettet">
-   Laste inn filer frå nettet
+  <a class="reference internal nav-link" href="#trenger-bare-en-kommando-fra-et-bibliotek">
+   Trenger bare en kommando fra et bibliotek?
   </a>
  </li>
 </ul>
@@ -230,7 +234,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Programvare</h1>
+                <h1>Biblioteker i Python</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -241,28 +245,13 @@ const thebe_selector_output = ".output, .cell_output"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#installasjon">
-   Installasjon
+  <a class="reference internal nav-link" href="#forkortelser">
+   Forkortelser
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#anaconda-navigator-og-jupyter-lab">
-   Anaconda navigator og Jupyter Lab
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#brukargrensesnitt">
-   Brukargrensesnitt
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#oppdatering">
-   Oppdatering
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#laste-inn-filer-fra-nettet">
-   Laste inn filer frå nettet
+  <a class="reference internal nav-link" href="#trenger-bare-en-kommando-fra-et-bibliotek">
+   Trenger bare en kommando fra et bibliotek?
   </a>
  </li>
 </ul>
@@ -274,51 +263,63 @@ const thebe_selector_output = ".output, .cell_output"
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="programvare">
-<h1>Programvare<a class="headerlink" href="#programvare" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="installasjon">
-<h2>Installasjon<a class="headerlink" href="#installasjon" title="Permalink to this headline">¶</a></h2>
-<p>Anacondapakken lastar du ned frå <a class="reference external" href="https://www.anaconda.com/products/individual">anaconda.org</a>. Følg installasjonsretteleiaren der.</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="biblioteker-i-python">
+<h1>Biblioteker i Python<a class="headerlink" href="#biblioteker-i-python" title="Permalink to this headline">¶</a></h1>
+<a class="reference internal image-reference" href="_images/matplotlib_logo.png"><img alt="_images/matplotlib_logo.png" class="align-left" src="_images/matplotlib_logo.png" style="width: 52%;" /></a>
+<a class="reference internal image-reference" href="_images/numpy_logo.png"><img alt="_images/numpy_logo.png" class="align-right" src="_images/numpy_logo.png" style="width: 41%;" /></a>
+<p>Python har mange innebygde funksjoner og operasjoner. Innenfor det som vi skal jobbe med i fagene her, så trenger vi ofte en del andre biblioteker med flere funksjoner i tillegg. I matematikk får vi stor bruk for <code class="docutils literal notranslate"><span class="pre">numpy</span></code>og <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> og særlig den delen som handler om plotting <code class="docutils literal notranslate"><span class="pre">matplotlib.pyplot</span></code>.
+Senere, eller i andre fag, vil du gjerne også få bruk for <code class="docutils literal notranslate"><span class="pre">scipy</span></code>, <code class="docutils literal notranslate"><span class="pre">pandas</span></code>, <code class="docutils literal notranslate"><span class="pre">geopandas</span></code> eller <code class="docutils literal notranslate"><span class="pre">scipy</span></code>.</p>
+<div class="warning admonition">
+<p class="admonition-title">Advarsel</p>
+<p>Lærebøkene har en tendens til å bruke ett stort bibliotek <code class="docutils literal notranslate"><span class="pre">pylab</span></code>. Dette er ikke en anbefalt metode. Hovedårsaken til dette er at det er satt sammen av flere ulike bibliotek, der det finnes flere funksjoner med samme navn. Du vil dermed ikke har kontroll på at det som regnes ut er helt riktig. Bruk derfor <code class="docutils literal notranslate"><span class="pre">numpy</span></code> og <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> som du vil lære her.</p>
 </div>
-<div class="section" id="anaconda-navigator-og-jupyter-lab">
-<h2>Anaconda navigator og Jupyter Lab<a class="headerlink" href="#anaconda-navigator-og-jupyter-lab" title="Permalink to this headline">¶</a></h2>
-<p>Når du har lasta ned Anaconda er du klar til å begynna. For å komma i gang opnar du <strong>Anaconda Navigator</strong> som du kan søka etter med Spotlight (Mac) eller i Start-meny (Windows).</p>
-<p>Når du opnar navigasjonsprogrammet vil det sjå ut som dette:</p>
-<a class="reference internal image-reference" href="_images/navigator1.png"><img alt="_images/navigator1.png" class="align-center" src="_images/navigator1.png" style="width: 650px;" /></a>
-<p>Her er det mange program å velga mellom. Me kjem i hovudsak til å nytta <strong>Jupyter Lab</strong> til programmeringa vår.</p>
 <div class="tip admonition">
-<p class="admonition-title">Snarveg for å opna Jupyter Lab</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter lab
+<p class="admonition-title">Eksempel på bruk av <code class="docutils literal notranslate"><span class="pre">numpy</span></code></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span>
+<span class="n">tall</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Hvilket tall vil du ta kvadratroten av? </span><span class="se">\n</span><span class="s1"> &gt;&gt; &#39;</span><span class="p">))</span>
+
+<span class="n">kvadratrot</span><span class="o">=</span><span class="n">numpy</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">tall</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Kvadratroten av </span><span class="si">{</span><span class="n">tall</span><span class="si">}</span><span class="s1"> er lik </span><span class="si">{</span><span class="n">kvadratrot</span><span class="si">}</span><span class="s1">)</span>
+</pre></div>
+</div>
+</div>
+<p>Koden over importerer først biblioteket numpy. Så henter den inn en verdi fra brukeren ved input, som gjøres om til et flyttall. <code class="docutils literal notranslate"><span class="pre">numpy.sqrt()</span></code> betyr at man skal gå til biblioteket numpy (står før punktum) og hente kommandoen sqrt fra det biblioteket. Denne kommandoen tar kvadratroten av en verdi.</p>
+<div class="section" id="forkortelser">
+<h2>Forkortelser<a class="headerlink" href="#forkortelser" title="Permalink to this headline">¶</a></h2>
+<p>Noen av bibliotekene har lange navn, som gjør at det blir mye å skrive i koden. Det er derfor vanlig at man lager forkortelser. Noen av disse forkortelsene er mer faste, sånn at de brukes globalt, som gjør det lettere å dele kode med andre, og ikke minst finne hjelp på nettet.</p>
+<p>Standard forkortelser for en del av de bibliotekene som vi skal bruke er</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+<div class="tip admonition">
+<p class="admonition-title">Eksempel over med bruk av forkortelse</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">tall</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Hvilket tall vil du ta kvadratroten av? </span><span class="se">\n</span><span class="s1"> &gt;&gt; &#39;</span><span class="p">))</span>
+
+<span class="n">kvadratrot</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">tall</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Kvadratroten av </span><span class="si">{</span><span class="n">tall</span><span class="si">}</span><span class="s1"> er lik </span><span class="si">{</span><span class="n">kvadratrot</span><span class="si">}</span><span class="s1">)</span>
 </pre></div>
 </div>
 </div>
 </div>
-<div class="section" id="brukargrensesnitt">
-<h2>Brukargrensesnitt<a class="headerlink" href="#brukargrensesnitt" title="Permalink to this headline">¶</a></h2>
-<p>…</p>
-</div>
-<div class="section" id="oppdatering">
-<h2>Oppdatering<a class="headerlink" href="#oppdatering" title="Permalink to this headline">¶</a></h2>
-<p>For å oppdatera heile anaconda-pakken og tilhøyrande bibliotek kan du bruka</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda update --all
+<div class="section" id="trenger-bare-en-kommando-fra-et-bibliotek">
+<h2>Trenger bare en kommando fra et bibliotek?<a class="headerlink" href="#trenger-bare-en-kommando-fra-et-bibliotek" title="Permalink to this headline">¶</a></h2>
+<p>Noen ganger trenger du bare én kommando fra et bibliotek. Da kan du bruke kommandoen <code class="docutils literal notranslate"><span class="pre">from</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">sqrt</span>
 </pre></div>
 </div>
-<p>På eit tidspunkt får du spørsmål om du vil halda fram <code class="docutils literal notranslate"><span class="pre">[y/n]</span></code>. Skriv inn <code class="docutils literal notranslate"><span class="pre">y</span></code> (for yes) og trykk enter.</p>
-<p>Det <em>kan</em> henda du må bruka</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge jupyterlab
+<p>Hvis du gjør det, så trenger du ikke kalle opp biblioteket senere, men bruke funksjonen uten å kalle numpy:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">sqrt</span>
+<span class="n">tall</span> <span class="o">=</span> <span class="mi">7890</span>
+<span class="n">roten</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">tall</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>for å installera den aller nyaste versjonen av Jupyter Lab, men du bør først ha oppdatert alt som skildra over.</p>
-<div class="important admonition">
-<p class="admonition-title">For å sjekka versjonen av Jupyter Lab kan du skriva</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter lab --version
-</pre></div>
+<div class="warning admonition">
+<p class="admonition-title">Advarsel</p>
+<p>En del lærebøker bruker <code class="docutils literal notranslate"><span class="pre">from</span> <span class="pre">&lt;...&gt;</span> <span class="pre">import</span> <span class="pre">*</span></code>. Problemet er at ulike biblioteker kan inneholde samme funksjonsnavn, som ikke gjør det samme, eller de kan inneholde en del variabler som verdier. Dette vil da kunne skape problemer i din kode hvis du bruker de samme variabelnavnene uten å definere dem skikkelig. Vi anbefaler derfor ikke å bruke <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">*</span></code></p>
 </div>
-</div>
-</div>
-<div class="section" id="laste-inn-filer-fra-nettet">
-<h2>Laste inn filer frå nettet<a class="headerlink" href="#laste-inn-filer-fra-nettet" title="Permalink to this headline">¶</a></h2>
-<p>…</p>
 </div>
 </div>
 
@@ -347,19 +348,12 @@ const thebe_selector_output = ".output, .cell_output"
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="innhald.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="GrunnleggandeProgrammering.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Innhald</p>
+            <p class="prev-next-title">Grunnleggande Python-programmering</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="GrunnleggandeProgrammering.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Grunnleggande Python-programmering</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             
